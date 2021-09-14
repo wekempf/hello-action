@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: actions/hello-world@v1
+        uses: wekempf/hello-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
